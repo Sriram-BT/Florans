@@ -7,9 +7,10 @@ export default function Home() {
   return (
     <div className="home-page">
       <Header />
-      <FounderSection/>
+      <FounderSection />
       <LatestUpdates />
       <ProgramsSection />
     </div>
   );
 }
+

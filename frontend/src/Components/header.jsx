@@ -1,6 +1,8 @@
 import "../Styles/header.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+   const navigate = useNavigate();
   return (
     <header className="header">
       <div className="header-container">
@@ -11,13 +13,14 @@ export default function Header() {
           <ul>
             <li>About Us</li>
             <li>Programs</li>
-            <li>Supporters</li>
+              <li onClick={() => navigate("/supporters")}>Supporters</li>
             <li>News & Insight</li>
             <li>Join Us</li>
           </ul>
         </nav>
 
       </div>
+      
     </header>
   );
 }
