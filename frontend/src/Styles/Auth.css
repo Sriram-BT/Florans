@@ -1,0 +1,64 @@
+.auth-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(163deg, #bd69c5 0%, #981789 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Watermark Background Logo */
+.auth-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../Assets/HelpingLOGO.png"); /* 👈 update path if needed */
+  background-size: 500px; /* adjust size */
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08; /* visibility 0.05–0.15 */
+  z-index: 0;
+}
+
+.home-container {
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1; /* ensures text appears above watermark */
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 320px;
+  margin: 20px auto 0;
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.primary-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #1f3c88;
+}
+
+.dark-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

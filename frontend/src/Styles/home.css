@@ -1,0 +1,5 @@
+
+.home-page {
+  height: 100vh;
+  background: rgb(176, 110, 177);  /* Will show above background instead of floating */
+}

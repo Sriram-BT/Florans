@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  background: linear-gradient(163deg, #bd69c5 0%, #981789 100%);
+  border-bottom: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Main layout */
+.header-container {
+  display: flex;
+  justify-content: space-between;   /* Logo left, menu right */
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+/* Logo styling (unchanged) */
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #ffffffcc, #e3f8ffcc);
+  -webkit-background-clip: text;
+  color: #f2f7ff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Move menu to the RIGHT — design unchanged */
+.right-menu {
+  display: flex;
+  justify-content: flex-end;  /* pushes menu to the far right */
+  flex: 1;
+}
+
+.right-menu ul {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Your original tab design */
+.right-menu li {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.right-menu li:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.right-menu li.active {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
