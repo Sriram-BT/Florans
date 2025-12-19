@@ -12,11 +12,11 @@ export default function Header() {
         <nav className="right-menu">
           <ul>
             <li onClick={() => navigate("/")}>Home</li>
-            <li>About Us</li>
+           <li onClick={() => navigate("/about")}>About us</li>
             <li onClick={() => navigate("/programs")}>Programs</li>
             <li onClick={() => navigate("/supporters")}>Supporters</li>
             <li>News & Insight</li>
-            <li>Join Us</li>
+             <li onClick={() => navigate("/register")}>Join Us</li>
           </ul>
         </nav>
       </div>

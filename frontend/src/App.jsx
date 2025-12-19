@@ -6,6 +6,7 @@ import Login from "./Components/login";
 import Register from "./Components/register";
 import Supporters from "./Components/Supporters";
 import ProjectsDone from "./Components/projectsDone";
+import AboutUs from "./Components/about";
 import Footer from "./Components/footer"
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/programs" element={<ProjectsDone />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/about" element={<AboutUs/>} />
       </Routes>
             <Footer />
 

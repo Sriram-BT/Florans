@@ -18,9 +18,8 @@ const sponsors = [
 const quickLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
-  { name: 'Services', href: '/services' },
-  { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Programs', href: '/programs' },
+  { name: 'Supporters', href: '/supporters' },
 ];
 
 const serviceLinks = [
