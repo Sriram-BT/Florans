@@ -1,8 +1,9 @@
+import Header from "./header";
 import Footer from "./footer";
 import FounderSection from "./founder";
-import Header from "./header";
 import LatestUpdates from "./LatestUpdate";
 import ProgramsSection from "./programs";
+// import ProjectsDone from "./projectsDone";
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
       <FounderSection />
       <LatestUpdates />
       <ProgramsSection />
-      <Footer/>
+      {/* <ProjectsDone /> */}
+      <Footer />
     </div>
   );
 }
-

@@ -3,7 +3,7 @@ import "../Styles/ProgramsSection.css";
 export default function ProgramsSection() {
   const programs = [
     {
-      img: require("../Assets/Program1.png"),
+      img: require("../Assets/cricketTraining.jpg"),
       title: "Cricket Training",
       desc: "Helping young talents improve skills, discipline, and teamwork through structured cricket training."
     },
@@ -13,12 +13,12 @@ export default function ProgramsSection() {
       desc: "Developing physical fitness and mentoring children who aspire to play football professionally."
     },
     {
-      img: require("../Assets/Program3.png"),
+      img: require("../Assets/specialChildrenGame.jpg"),
       title: "Special Children Sport Activities",
       desc: "Providing emotional and academic support for children requiring special educational assistance."
     },
     {
-      img: require("../Assets/Program4.png"),
+      img: require("../Assets/communityWelfare.jpg"),
       title: "Community Welfare",
       desc: "Engaging in programs to uplift underserved families through food, education, and medical aid."
     },
