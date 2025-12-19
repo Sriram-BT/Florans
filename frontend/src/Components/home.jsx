@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import FounderSection from "./founder";
 import Header from "./header";
 import LatestUpdates from "./LatestUpdate";
@@ -10,6 +11,7 @@ export default function Home() {
       <FounderSection />
       <LatestUpdates />
       <ProgramsSection />
+      <Footer/>
     </div>
   );
 }
