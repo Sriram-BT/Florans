@@ -1,6 +1,6 @@
 import "../Styles/FounderSection.css";
 import founderImg from '../Assets/founderImg.png'
-import jo from '../Assets/Jo.jpg'
+// import jo from '../Assets/Jo.jpg'
 
 export default function FounderSection() {
   return (
@@ -23,7 +23,7 @@ export default function FounderSection() {
       </div>
 
       <div className="founder-right">
-        <img src={jo} alt="Founder" className="founder-image" />
+        <img src={founderImg} alt="Founder" className="founder-image" />
       </div>
     </section>
   );
